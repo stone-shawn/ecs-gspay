@@ -4,7 +4,7 @@
  *
  * @author Lei Xiao <ailaohuyou.lei@gmail.com>
  * @link http://www.leiswork.com/
- * @copyright 2009-2014 Lei's tech
+ * @copyright 2010-2014 Lei's work
  */
 
 if (!defined('IN_ECS'))
@@ -26,19 +26,19 @@ if (isset($set_modules) && $set_modules == TRUE)
     $i = isset($modules) ? count($modules) : 0;
 
     /* 代码 */
-    $modules[$i]['code']    = basename(__FILE__, '.php');
+    $modules[$i]['code'] = basename(__FILE__, '.php');
 
     /* 描述对应的语言项 */
-    $modules[$i]['desc']    = 'gspay_desc';
+    $modules[$i]['desc'] = 'gspay_desc';
 
     /* 是否支持货到付款 */
-    $modules[$i]['is_cod']  = '0';
+    $modules[$i]['is_cod'] = '0';
 
     /* 是否支持在线支付 */
-    $modules[$i]['is_online']  = '1';
+    $modules[$i]['is_online'] = '1';
 
     /* 作者 */
-    $modules[$i]['author']  = '磊氏科技有限公司';
+    $modules[$i]['author'] = '磊氏科技有限公司';
 
     /* 网址 */
     $modules[$i]['website'] = 'http://www.leiswork.com';
@@ -48,8 +48,8 @@ if (isset($set_modules) && $set_modules == TRUE)
 
     /* 配置信息 */
     $modules[$i]['config']  = array(
-        array('name' => 'gspay_siteID','type' => 'text',   'value' => ''),
-        array('name' => 'gspay_test',    'type' => 'select', 'value' => '')
+        array('name' => 'gspay_siteID','type' => 'text', 'value' => ''),
+        array('name' => 'gspay_test', 'type' => 'select', 'value' => '')
     );
 
     return;
@@ -216,10 +216,7 @@ class gspay
         {
             return false;
         }
-
     }//end function
 
 }
-
-
 ?>

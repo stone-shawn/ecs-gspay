@@ -4,7 +4,7 @@
  * ECSHOP GSPAY 语言文件
  * @author Lei Xiao <ailaohuyou.lei@gmail.com>
  * @link http://www.leiswork.com/
- * @copyright 2009-2014 Lei's tech
+ * @copyright 2010-2014 Lei's tech
  */
 
 global $_LANG;
